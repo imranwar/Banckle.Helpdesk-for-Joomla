@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0">
+	<name>Banckle Helpdesk</name>
+	<author>Masood Anwer</author>
+	<creationDate>April, 2014</creationDate>
+	<copyright>Copyright (c) 2001-2014 Aspose Pty Ltd. All rights Reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>masood.anwer@banckle.com</authorEmail>
+	<authorUrl>http://banckle.com</authorUrl>
+	<version>1.0</version>
+	<description>Banckle Helpdesk is simple customer support help desk software. It works as a web based ticketing management system and becomes your collaborative team Inbox, which allows all team members to be on the same page with consolidated email communication. Easily integrate multiple email accounts under a single online help desk account.</description>
+	<files>
+		<filename module="mod_bancklehelpdesk">mod_bancklehelpdesk.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<config><fields name="params"><fieldset name="basic">
+		<field label="Don't have Banckle account yet? &lt;br&gt; &lt;a href='http://banckle.com/action/signup?ref=https%3A%2F%2Fapps.banckle.com%2F';  target=&quot;_blank&quot; &gt;Sign Up for Free! &lt;/a&gt;" type="spacer" size="10" />		
+		<field filter="raw" label=" &lt;b&gt;Banckle Helpdesk Widget Code &lt;/b&gt;" description="Banckle Helpdesk deployment Code from apps.banckle.com" name="banckleHelpdeskWidget" default="" type="textarea" cols="50" rows="10" size="100" />
+	</fieldset></fields></config>
+
+    <params group="advanced">
+    </params>
+	  
+</extension>
